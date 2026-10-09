@@ -1,4 +1,4 @@
 interface:
-  display_name: "英语口语与视频学习"
+  display_name: "菜菜英语搭子"
   short_description: "选择口语练习或英文视频学习，结合录音解答术语并归档到 Obsidian"
-  default_prompt: "使用 $obsidian-speaking-practice，先问我这次选择英语口语练习还是英语视频学习。"
+  default_prompt: "使用 $caicai-english-buddy，先问我这次选择英语口语练习还是英语视频学习。"

@@ -1,9 +1,9 @@
 ---
-name: obsidian-speaking-practice
+name: caicai-english-buddy
 description: Practice spoken English or learn from English videos, especially AI videos, with contextual vocabulary explanations, brief quizzes, and linked Obsidian records and weekly reviews.
 ---
 
-# Obsidian Speaking Practice
+# 菜菜英语搭子 Caicai’s English Buddy
 
 Use this skill for English speaking practice or English video learning with Obsidian records. It is not for unrelated meeting summaries or generic translation.
 

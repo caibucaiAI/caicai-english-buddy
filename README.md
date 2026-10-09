@@ -1,11 +1,11 @@
-# 英语口语与视频学习
+# 菜菜英语搭子 Caicai’s English Buddy
 
 一个 Codex Skill，两种学习模式：英语口语练习，以及结合录音转录的英文视频学习。记录保存到你自己的 Obsidian。
 
 ## 使用
 
 ```text
-使用 $obsidian-speaking-practice
+使用 $caicai-english-buddy
 ```
 
 启动时先问：“你这次想要进入什么模式？英语口语练习，还是英语视频学习？”已明确选择模式时直接开始。
@@ -18,7 +18,7 @@
 ## 安装
 
 ```bash
-git clone https://github.com/caibucaiAI/obsidian-speaking-practice.git ~/.codex/skills/obsidian-speaking-practice
+git clone https://github.com/caibucaiAI/caicai-english-buddy.git ~/.codex/skills/caicai-english-buddy
 ```
 
 首次使用时提供你的 Obsidian Vault 和目标学习目录。优先沿用现有结构。已安装者应先保留本地定制，再更新文件。
