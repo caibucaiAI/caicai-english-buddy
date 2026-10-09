@@ -16,6 +16,14 @@ At the beginning of each new learning session, ask in Simplified Chinese: “你
 
 Default explanations and summaries to Simplified Chinese. Preserve English terms and source quotations in English. Loading this skill does not itself start a recorder or make unavailable transcript tools accessible.
 
+## Product entry points and unavailable features
+
+For the intended spoken workflow, guide the user to **Codex Live** for English speaking practice. For live English video context, guide the user to **ChatGPT Meetings** and the current recording Page. Typed practice or supplied subtitles remain possible fallbacks, but do not describe them as an active Live/Meetings session. The skill cannot open a product capability that the environment does not expose.
+
+As checked against the [official Meetings guide](https://help.openai.com/en/articles/20001546-the-meetings-plugin-in-chatgpt) on 2026-10-09, Meetings is in beta in the ChatGPT macOS desktop app for Pro and Business plans; Enterprise availability is limited to an alpha. This is distinct from the older ChatGPT Record feature. Eligibility may change: check the current official guide before diagnosing an access problem or recommending a plan change.
+
+When asked why a mode does not work, identify the failing layer: missing Live/Meetings entry, account/plan eligibility, desktop platform, plugin setup, microphone/system-audio permissions, transcript access, or local Obsidian access. Use available evidence; ask only for the relevant missing detail. Do not repeatedly try an unavailable entry, assume every failure is caused by not having Pro, or promise that upgrading fixes unrelated problems. Explain the confirmed limitation and the next concrete step. For Meetings, guide eligible users through the official setup and permissions; for an ineligible account, explain supported plans and offer pasted subtitles or source sentences as a fallback. Saving to OB separately requires filesystem access to the Vault.
+
 ## One learning system, two modes
 
 Keep speaking and video learning as sibling folders under `语言学习`. Maintain separate vocabulary notebooks and indexes for each mode, using the same evidence-based feedback conventions, date conventions, and weekly review structure. Video mode defaults to AI-related learning but supports other subjects; read its reference for vocabulary-led closing quizzes and AI concepts. Keep one skill with two modes; link related entries across the separate notebooks instead of copying all vocabulary.
