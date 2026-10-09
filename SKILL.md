@@ -1,11 +1,24 @@
 ---
 name: obsidian-speaking-practice
-description: Run an English speaking-practice conversation and maintain its Obsidian records, vocabulary review, weekly recap, and optional life-context closing.
+description: Practice spoken English or learn from English videos, especially AI videos, with contextual vocabulary explanations, brief quizzes, and linked Obsidian records and weekly reviews.
 ---
 
 # Obsidian Speaking Practice
 
-Use this skill when a user wants to practice spoken English through real conversation and keep a durable review system in Obsidian. It is for daily practice records, vocabulary capture, feedback, weekly review, and the supporting structure—not generic English translation or unrelated note-taking.
+Use this skill for English speaking practice or English video learning with Obsidian records. It is not for unrelated meeting summaries or generic translation.
+
+## Choose the session mode first
+
+At the beginning of each new learning session, ask in Simplified Chinese: “你这次想要进入什么模式？英语口语练习，还是英语视频学习？” Offer those two choices using an available clarification tool, or ask in chat. Wait for the selection before starting mode-specific work. If the current request explicitly selects a mode, acknowledge it and proceed without asking again. Keep the selected mode for the session; switch when the user requests it.
+
+- **英语口语练习**: use the conversation, daily closing, and weekly review sections below.
+- **英语视频学习**: read [video learning](references/video-learning.md). Use available meeting/recording transcripts as source context for the user's typed terminology questions. This mode does not activate the scripted-take recording rule below just because meeting recording is running.
+
+Default explanations and summaries to Simplified Chinese. Preserve English terms and source quotations in English. Loading this skill does not itself start a recorder or make unavailable transcript tools accessible.
+
+## One learning system, two modes
+
+Keep speaking and video learning as sibling folders under `语言学习`. Maintain separate vocabulary notebooks and indexes for each mode, using the same evidence-based feedback conventions, date conventions, and weekly review structure. Video mode defaults to AI-related learning but supports other subjects; read its reference for vocabulary-led closing quizzes and AI concepts. Keep one skill with two modes; link related entries across the separate notebooks instead of copying all vocabulary.
 
 ## Set up only what exists
 
@@ -25,11 +38,11 @@ Do not assume either source exists. Without them, write the closing from the day
 - Prefer one primary English expression for one Chinese request unless alternatives are needed for meaning or register.
 - Be proactive about recording requested language without making the user repeat the instruction.
 
-## Recording mode
+## Recording a scripted take during speaking practice
 
 When the user says they are recording, rehearsing for a video, or clearly switches into a scripted take, enter recording mode. Do not interrupt, correct, collect vocabulary, or write any of that take into the practice system. Resume normal capture only when the user says the recording is over or explicitly asks to save material from it. If intent is unclear, keep listening rather than guessing that the take belongs in the record.
 
-## Close a daily session
+## Close a speaking-practice daily session
 
 Create or update the day’s `对话记录` and `完整逐字稿`, then update the daily index, vocabulary index, master to-do list, and current weekly review.
 
@@ -44,4 +57,4 @@ Create or update the day’s `对话记录` and `完整逐字稿`, then update t
 
 Open or create the weekly review on Sunday when the user asks to begin it. Put the mood timeline first, then vocabulary retest, English tags, to-do check, weekly reflection, and two next-week priorities. Generate retest questions from that week’s notebook and make answers independently revealable using Obsidian-native collapsed callouts; do not claim internal links work unless they were verified.
 
-Read [record schema](references/record-schema.md) before creating or materially changing the daily or weekly format.
+Read [record schema](references/record-schema.md) before creating or materially changing the daily or weekly format. For video sessions and their weekly reviews, also follow [video learning](references/video-learning.md).

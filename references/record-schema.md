@@ -1,6 +1,10 @@
 # 记录结构
 
-## 默认目录
+## 目录与模式
+
+`英语口语练习/` 与 `英文视频学习/` 在 `语言学习/` 下并列。下方是口语模式的现有布局；视频笔记与视频周复盘的布局和顺序见 [video learning](video-learning.md)。两种模式分别维护自己目录内的 `单词本/` 与索引，使用一致的字段；相关词条通过链接关联。
+
+## 口语目录
 
 ```text
 英语口语练习/
@@ -43,7 +47,9 @@ Each date is a table:
 
 `单词 / 表达 | 类型 / 词性 | 中文 | 用法 / 例句`
 
-The master index is reverse chronological. Record words, phrases, and sentence patterns. Keep the translation and example tied to the actual situation in which the user met the expression.
+The master index is reverse chronological. Record words, phrases, and sentence patterns. Keep the translation and example tied to the actual situation in which the user met the expression. Each mode maintains its own notebook and links related entries across modes. Video notes hold full word explanations (part of speech, source use, collocations, additional examples), while the notebook stays concise and links to the source. Distinguish user-requested terms from agent-selected suggestions.
+
+Quiz evidence records the question, actual user response, hints, local outcome, and relevant source/date. Share it by links across modes. Do not turn an explanation, a typed Chinese meaning answer, or one successful attempt into a claim of English production or durable mastery.
 
 ## Weekly review
 
@@ -57,3 +63,7 @@ Use a compact date-range file name. Begin in this order:
 6. `下周两个重点`: one language focus and one life/work focus.
 
 Use mood emoji in weekly review only when they make scanning easier; daily records can use text tags alone.
+
+## 英文视频学习的平行结构
+
+视频学习与口语练习是语言学习下的同级目录。视频学习独立维护 INDEX.md、待办清单.md、单词本/INDEX.md 与日期文件、对话记录/日期/对话记录.md 与 完整逐字稿.md、周复盘/INDEX.md 与周文件。具体格式见 [video learning](video-learning.md)。两边单词本分别收录对应模式的材料，以链接关联；不混存。视频对话记录也保留问答与反馈，但不虚构口语统计、用户掌握程度或完整逐字稿。

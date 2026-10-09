@@ -1,4 +1,4 @@
 interface:
-  display_name: "英语口语练习系统"
-  short_description: "练口语并自动维护 Obsidian 记录与周复盘"
-  default_prompt: "使用 $obsidian-speaking-practice 陪我练英语口语，并按 Obsidian 练习系统记录今天的对话。"
+  display_name: "英语口语与视频学习"
+  short_description: "选择口语练习或英文视频学习，结合录音解答术语并归档到 Obsidian"
+  default_prompt: "使用 $obsidian-speaking-practice，先问我这次选择英语口语练习还是英语视频学习。"
